@@ -406,7 +406,9 @@ function createXMLHttpRequest() {
     }
     return xmlHttp;
 }
-
+/*
+data
+*/
 function uniqId() {
     return Math.round(new Date().getTime() + (Math.random() * 100));
 }
